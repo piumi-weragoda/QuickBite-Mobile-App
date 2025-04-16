@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# 🍽️ QuickBite – Food Delivery Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Quickbite** is a fast and modern food delivery app built with **React Native** and **Expo**. It allows users to browse menus, place orders, and get their favorite meals delivered with ease.
 
-## Get started
+---
 
-1. Install dependencies
+## 📖 Table of Contents
 
-   ```bash
-   npm install
-   ```
+1. [Project Description](#-project-description)
+2. [Installation & Setup](#-installation--setup)
+3. [How to Use the Project](#-how-to-use-the-project)
+4. [Tech Stack](#-tech-stack)
+5. [Challenges & Future Features](#-challenges--future-features)
+6. [Credits](#-credits)
+7. [License](#-license)
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧾 Project Description
 
-In the output, you'll find options to open the app in a
+**QuickBite** is a feature-rich mobile food delivery app aimed at offering users a fast, convenient, and modern way to order meals from local restaurants. The app supports full cart functionality, user authentication, and real-time order tracking.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🎯 Main Goals
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Simplify the food ordering process on mobile
+- Provide live order and delivery tracking
+- Implement an intuitive, responsive UI
 
-## Get a fresh project
+### 💡 Why These Technologies?
 
-When you're ready, run:
+- **React Native**: For a unified codebase across iOS and Android
+- **Expo**: For streamlined development and testing
+- **Redux**: To manage complex global state such as the cart, user info, and order history
+- **Firebase/Supabase (optional)**: To handle authentication and backend services
+- **React Native Navigation**: Manages screen transitions and navigation
+- **NativeWind**: Tailwind-style utility classes for clean UI styling 
+- **Sanity** : Headless CMS to manage content like menus and images 
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### ✅ Prerequisites
+
+- Node.js ≥ 16.x
+- Expo CLI: `npm install -g expo-cli`
+- Git
+- Expo Go app on your mobile device
+
+### 🛠️ Setup
 
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/your-username/bitesdash.git
+cd QuickBite
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the development server
+npx expo start
