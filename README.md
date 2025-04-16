@@ -1,6 +1,6 @@
-# 🍽️ BitesDash – Food Delivery Mobile App
+# 🍽️ QuickBite – Food Delivery Mobile App
 
-A cross-platform mobile application for browsing local restaurants, placing food orders, managing a cart, and tracking deliveries — all in real-time. Built with React Native, Expo, and Redux, BitesDash provides a seamless food ordering experience at your fingertips.
+**Quickbite** is a fast and modern food delivery app built with **React Native** and **Expo**. It allows users to browse menus, place orders, and get their favorite meals delivered with ease.
 
 ---
 
@@ -18,7 +18,7 @@ A cross-platform mobile application for browsing local restaurants, placing food
 
 ## 🧾 Project Description
 
-**BitesDash** is a feature-rich mobile food delivery app aimed at offering users a fast, convenient, and modern way to order meals from local restaurants. The app supports full cart functionality, user authentication, and real-time order tracking.
+**QuickBite** is a feature-rich mobile food delivery app aimed at offering users a fast, convenient, and modern way to order meals from local restaurants. The app supports full cart functionality, user authentication, and real-time order tracking.
 
 ### 🎯 Main Goals
 
@@ -32,7 +32,9 @@ A cross-platform mobile application for browsing local restaurants, placing food
 - **Expo**: For streamlined development and testing
 - **Redux**: To manage complex global state such as the cart, user info, and order history
 - **Firebase/Supabase (optional)**: To handle authentication and backend services
-- **Google Maps SDK**: For live delivery tracking and map-based UI
+- **React Native Navigation**: Manages screen transitions and navigation
+- **NativeWind**: Tailwind-style utility classes for clean UI styling 
+- **Sanity** : Headless CMS to manage content like menus and images 
 
 ---
 
@@ -52,7 +54,7 @@ Follow these steps to run the project locally:
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/bitesdash.git
-cd bitesdash
+cd QuickBite
 
 # Install dependencies
 npm install
